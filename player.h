@@ -16,7 +16,7 @@ private:
 
 public:
     void init_player(char *name, char *class);
-    void add_card_to_deck()
+    void add_card_to_deck();
 };
 
 
