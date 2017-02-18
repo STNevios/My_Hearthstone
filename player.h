@@ -5,18 +5,22 @@
 #ifndef MY_HEARTHSTONE_PLAYER_H
 #define MY_HEARTHSTONE_PLAYER_H
 
+#include <string>
 
 class player {
-private:
-    char    *p_name;
-    char    *p_class;
-    int     p_hp;
-    int     p_mp;
-    char    **p_deck;
+    public:
 
-public:
-    void init_player(char *name, char *class);
-    void add_card_to_deck();
+        void init_player(std::string name, std::string class);
+        void add_card_to_deck(std::string card, int nb_card);
+        player get_p_name();
+
+    private:
+
+        std::string     p_name;
+        std::string     p_class;
+        int             p_hp;
+        int             p_mp;
+        char            **p_deck;
 };
 
 
