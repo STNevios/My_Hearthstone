@@ -43,10 +43,10 @@ RM = /Users/carra_c/Desktop/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/carra_c/CLionProjects/My Hearthstone"
+CMAKE_SOURCE_DIR = /Users/carra_c/CLionProjects/My-Hearthstone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/My_Hearthstone.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/My_Hearthstone.dir/flags.make
 
 CMakeFiles/My_Hearthstone.dir/main.cpp.o: CMakeFiles/My_Hearthstone.dir/flags.make
 CMakeFiles/My_Hearthstone.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/My_Hearthstone.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/My_Hearthstone.dir/main.cpp.o -c "/Users/carra_c/CLionProjects/My Hearthstone/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/My_Hearthstone.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/My_Hearthstone.dir/main.cpp.o -c /Users/carra_c/CLionProjects/My-Hearthstone/main.cpp
 
 CMakeFiles/My_Hearthstone.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/My_Hearthstone.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/carra_c/CLionProjects/My Hearthstone/main.cpp" > CMakeFiles/My_Hearthstone.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/carra_c/CLionProjects/My-Hearthstone/main.cpp > CMakeFiles/My_Hearthstone.dir/main.cpp.i
 
 CMakeFiles/My_Hearthstone.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/My_Hearthstone.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carra_c/CLionProjects/My Hearthstone/main.cpp" -o CMakeFiles/My_Hearthstone.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/carra_c/CLionProjects/My-Hearthstone/main.cpp -o CMakeFiles/My_Hearthstone.dir/main.cpp.s
 
 CMakeFiles/My_Hearthstone.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/My_Hearthstone.dir/main.cpp.o.provides.build: CMakeFiles/My_Hearthsto
 
 CMakeFiles/My_Hearthstone.dir/player.cpp.o: CMakeFiles/My_Hearthstone.dir/flags.make
 CMakeFiles/My_Hearthstone.dir/player.cpp.o: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/My_Hearthstone.dir/player.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/My_Hearthstone.dir/player.cpp.o -c "/Users/carra_c/CLionProjects/My Hearthstone/player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/My_Hearthstone.dir/player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/My_Hearthstone.dir/player.cpp.o -c /Users/carra_c/CLionProjects/My-Hearthstone/player.cpp
 
 CMakeFiles/My_Hearthstone.dir/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/My_Hearthstone.dir/player.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/carra_c/CLionProjects/My Hearthstone/player.cpp" > CMakeFiles/My_Hearthstone.dir/player.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/carra_c/CLionProjects/My-Hearthstone/player.cpp > CMakeFiles/My_Hearthstone.dir/player.cpp.i
 
 CMakeFiles/My_Hearthstone.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/My_Hearthstone.dir/player.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carra_c/CLionProjects/My Hearthstone/player.cpp" -o CMakeFiles/My_Hearthstone.dir/player.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/carra_c/CLionProjects/My-Hearthstone/player.cpp -o CMakeFiles/My_Hearthstone.dir/player.cpp.s
 
 CMakeFiles/My_Hearthstone.dir/player.cpp.o.requires:
 
@@ -117,7 +117,7 @@ My_Hearthstone: CMakeFiles/My_Hearthstone.dir/main.cpp.o
 My_Hearthstone: CMakeFiles/My_Hearthstone.dir/player.cpp.o
 My_Hearthstone: CMakeFiles/My_Hearthstone.dir/build.make
 My_Hearthstone: CMakeFiles/My_Hearthstone.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable My_Hearthstone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable My_Hearthstone"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/My_Hearthstone.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/My_Hearthstone.dir/clean:
 .PHONY : CMakeFiles/My_Hearthstone.dir/clean
 
 CMakeFiles/My_Hearthstone.dir/depend:
-	cd "/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/carra_c/CLionProjects/My Hearthstone" "/Users/carra_c/CLionProjects/My Hearthstone" "/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug" "/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug" "/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug/CMakeFiles/My_Hearthstone.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/carra_c/CLionProjects/My-Hearthstone /Users/carra_c/CLionProjects/My-Hearthstone /Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug /Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug /Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug/CMakeFiles/My_Hearthstone.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/My_Hearthstone.dir/depend
 

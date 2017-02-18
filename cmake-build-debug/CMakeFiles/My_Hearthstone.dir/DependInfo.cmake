@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/carra_c/CLionProjects/My Hearthstone/main.cpp" "/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug/CMakeFiles/My_Hearthstone.dir/main.cpp.o"
-  "/Users/carra_c/CLionProjects/My Hearthstone/player.cpp" "/Users/carra_c/CLionProjects/My Hearthstone/cmake-build-debug/CMakeFiles/My_Hearthstone.dir/player.cpp.o"
+  "/Users/carra_c/CLionProjects/My-Hearthstone/main.cpp" "/Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug/CMakeFiles/My_Hearthstone.dir/main.cpp.o"
+  "/Users/carra_c/CLionProjects/My-Hearthstone/player.cpp" "/Users/carra_c/CLionProjects/My-Hearthstone/cmake-build-debug/CMakeFiles/My_Hearthstone.dir/player.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
